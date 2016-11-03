@@ -26,7 +26,7 @@
 		F211848E1DBE1269002EBDB6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F211848D1DBE1269002EBDB6 /* QuartzCore.framework */; };
 		F21184901DBE126F002EBDB6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F211848F1DBE126F002EBDB6 /* UIKit.framework */; };
 		F21184921DBE1277002EBDB6 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21184911DBE1277002EBDB6 /* VideoToolbox.framework */; };
-		F2815AD81DCAE82200D63C22 /* RTCatSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2815AD71DCAE82200D63C22 /* RTCatSDK.framework */; };
+		F2815ADA1DCAF0DC00D63C22 /* RTCatSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2815AD91DCAF0DC00D63C22 /* RTCatSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,7 +53,7 @@
 		F211848D1DBE1269002EBDB6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		F211848F1DBE126F002EBDB6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F21184911DBE1277002EBDB6 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
-		F2815AD71DCAE82200D63C22 /* RTCatSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RTCatSDK.framework; sourceTree = "<group>"; };
+		F2815AD91DCAF0DC00D63C22 /* RTCatSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RTCatSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +65,7 @@
 				F21184901DBE126F002EBDB6 /* UIKit.framework in Frameworks */,
 				F211848E1DBE1269002EBDB6 /* QuartzCore.framework in Frameworks */,
 				F211848C1DBE1260002EBDB6 /* OpenGLES.framework in Frameworks */,
-				F2815AD81DCAE82200D63C22 /* RTCatSDK.framework in Frameworks */,
+				F2815ADA1DCAF0DC00D63C22 /* RTCatSDK.framework in Frameworks */,
 				F211848A1DBE1258002EBDB6 /* libsqlite3.tbd in Frameworks */,
 				F21184881DBE1241002EBDB6 /* libc++.tbd in Frameworks */,
 				F21184861DBE1235002EBDB6 /* libicucore.A.tbd in Frameworks */,
@@ -84,7 +84,7 @@
 		F21184531DBE1095002EBDB6 = {
 			isa = PBXGroup;
 			children = (
-				F2815AD71DCAE82200D63C22 /* RTCatSDK.framework */,
+				F2815AD91DCAF0DC00D63C22 /* RTCatSDK.framework */,
 				F211845E1DBE1096002EBDB6 /* demo1 */,
 				F211845D1DBE1096002EBDB6 /* Products */,
 				F21184781DBE11BF002EBDB6 /* Frameworks */,

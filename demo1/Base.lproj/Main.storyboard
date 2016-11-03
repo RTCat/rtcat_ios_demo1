@@ -50,6 +50,7 @@
                     </view>
                     <connections>
                         <outlet property="VideoContainer" destination="wBl-yX-U9S" id="9gz-LK-IBt"/>
+                        <outlet property="videoContainer" destination="wBl-yX-U9S" id="UWg-dN-Oa1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
