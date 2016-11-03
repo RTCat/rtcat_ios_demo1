@@ -8,7 +8,7 @@
 
 1. `git clone https://github.com/RTCat/rtcat_ios_demo1.git`
 2. 通过Xcode导入 `demo1.xcodeproj` 文件
-3. 将 `RTCatSDK.framework` 下载地址：`cdn.realtimecat.com/realtimecat/rtc-ios-sdk-0.2.zip` 。下载完成后导入项目目录。
+3. `RTCatSDK.framework` 下载地址：`cdn.realtimecat.com/realtimecat/rtc-ios-sdk-0.2.zip` 。下载完成后解压并导入项目目录。
 
 
 
