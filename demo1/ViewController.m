@@ -42,7 +42,6 @@
     RTCat *_cat = [RTCat shareInstance];
     
     _stream = [_cat createStreamWithVideo:YES audio:YES facing:RTCAT_CAMERA_FRONT fps:15 height:rLocal.size.height width:rLocal.size.width];
-    
     [_stream playWithPlayer:_localPlayer];
 }
 @end
