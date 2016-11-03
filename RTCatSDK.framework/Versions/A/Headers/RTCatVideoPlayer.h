@@ -48,5 +48,6 @@
  *  播放器的 delegate
  */
 @property (nonatomic, strong) id<RTCatVideoPlayerDelegate> delegate;
+@property (nonatomic,assign,readonly) CGRect bounds;
 
 @end
