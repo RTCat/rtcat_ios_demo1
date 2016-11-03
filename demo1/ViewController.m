@@ -7,18 +7,42 @@
 //
 
 #import "ViewController.h"
+#import <RTCatSDK/RTCatLocalStream.h>
+#import <RTCatSDK/RTCatVideoPlayer.h>
+#import <RTCatSDK/RTCat.h>
 
-@interface ViewController ()
+@interface ViewController (){
+    RTCatLocalStream *_stream;
+}
+@property (weak, nonatomic) IBOutlet UIView *VideoContainer;
+
 
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+- (IBAction)onSwitchClick:(UIButton *)sender {
+    [_stream switchCamera];
 }
 
+
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
+    
+}
+
+- (void)viewDidLayoutSubviews{
+    [super viewDidLayoutSubviews];
+    CGRect rLocal = _VideoContainer.bounds;
+    RTCatVideoPlayer *_localPlayer = [[RTCatVideoPlayer alloc] initWithFrame:rLocal];
+    [_VideoContainer addSubview:_localPlayer.view];
+
+    RTCat *_cat = [RTCat shareInstance];
+    _stream = [_cat createStreamWithVideo:YES audio:YES facing:RTCAT_CAMERA_FRONT fps:15 height:rLocal.size.height width:rLocal.size.width];
+    [_stream playWithPlayer:_localPlayer];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
